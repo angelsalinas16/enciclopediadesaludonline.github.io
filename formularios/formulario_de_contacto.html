@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Enciclopedia de Salud online - Formulario de Contacto</title>
+</head>
+<body>
+<a href="../index.html">
+<img src="../imagenes/logo.avif" alt="Logo de la página web" width="200" height="200"></a>
+<h1>Enciclopedia de salud online</h1>
+<h2>Formulario de Contacto</h2>
+    <form action="mensaje_contacto.html" method="post">
+        <p><label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" placeholder="Asunto del contacto" required><br></p>
+
+        <p><label for="comentario">Comentario o pregunta:</label>
+        <textarea id="comentario" name="comentario" placeholder="Comentario del contacto" required></textarea></p>
+
+        <p><label for="yo_soy">Yo soy:</label>
+        <select id="yo_soy" name="yo_soy" required>
+            <option value="">Seleccione una opción</option>
+            <option value="Paciente">Paciente</option>
+            <option value="Científico">Científico</option>
+            <option value="Médico">Médico</option>
+            <option value="Educador">Educador</option>
+            <option value="Fabricante">Fabricante</option>
+            <option value="Periodista">Periodista</option>
+        </select></p>
+
+        <p><label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"></p>
+
+        <label>Sexo:</label>
+        <input type="radio" id="hombre" name="sexo" value="Hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="Mujer">
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="otro" name="sexo" value="Otro">
+        <label for="otro">Otro</label>
+
+        <p><label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="dirección de correo electrónico" required></p>
+
+        <p><input type="checkbox" id="recibir_info" name="recibir_info">
+        <label for="recibir_info">Deseo recibir más información</label></p>
+
+        <p><input type="submit"></p>
+    </form>
+<a href="../indices/a.html">Volver atrás</a>
+<a href="../index.html">Volver a la página principal</a>
+<footer>
+	<p>&copy;2024 Enciclopedia de salud. Redes sociales: <a href="https://www.instagram.com/aangelsalinas_/"> <img src="../imagenes/ig_logo.jpg" alt="logo de instagram" width="50" height="25" ></a>
+	<a href="https://x.com/MedlinePlusEsp"> <img src="../imagenes/tw_logo.jpg" alt="logo de twitter" width="35" height="25"></a></p>
+<p>Autores: Ángel Salinas Ruiz y Joel Gomariz Pérez</p>
+</footer>
+</body>
+</html>
